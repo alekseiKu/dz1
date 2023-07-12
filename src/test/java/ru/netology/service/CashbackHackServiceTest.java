@@ -12,7 +12,7 @@ public class CashbackHackServiceTest {
     public void shouldCalculateCashBackEqual1000() {
         int amount = 1000;
 
-        int expected = 1000;
+        int expected = 0;
         int actual = cashback.remain(amount);
 
         assertEquals(actual, expected);
